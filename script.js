@@ -44,20 +44,17 @@ const products = [
     }
 ];
 
-// ПОЛУЧЕНИЕ КОРЗИНЫ
 
 function getCart() {
     return JSON.parse(localStorage.getItem("urbanCart")) || [];
 }
 
-// СОХРАНЕНИЕ КОРЗИНЫ
 
 function saveCart(cart) {
     localStorage.setItem("urbanCart", JSON.stringify(cart));
     updateCartCount();
 }
 
-// ОБНОВЛЕНИЕ КОЛИЧЕСТВА
 
 function updateCartCount() {
     const cart = getCart();
@@ -73,7 +70,6 @@ function updateCartCount() {
     }
 }
 
-// ДОБАВЛЕНИЕ ТОВАРА
 
 function addToCart(id) {
     const cart = getCart();
@@ -98,7 +94,6 @@ function addToCart(id) {
     alert("Товар успешно добавлен в корзину!");
 }
 
-// ОТОБРАЖЕНИЕ ТОВАРОВ
 
 function renderProducts() {
     const container = document.getElementById("products");
@@ -127,7 +122,6 @@ function renderProducts() {
     `).join("");
 }
 
-// ФОРМА КОНТАКТОВ
 
 function setupContactForm() {
     const form = document.getElementById("contact-form");
@@ -149,7 +143,6 @@ function setupContactForm() {
     });
 }
 
-// ЗАПУСК САЙТА
 
 document.addEventListener("DOMContentLoaded", function() {
     renderProducts();
