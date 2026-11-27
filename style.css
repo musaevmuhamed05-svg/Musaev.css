@@ -1,5 +1,4 @@
 
-/* ===== ОСНОВА ===== */
 
 * {
     margin: 0;
@@ -14,7 +13,6 @@ body {
     color: #25234a;
 }
 
-/* ===== ШАПКА ===== */
 
 .navbar {
     background: linear-gradient(90deg, #29145e, #5725a8, #9226b5) !important;
@@ -59,7 +57,6 @@ body {
     color: white;
 }
 
-/* ===== ГЛАВНЫЙ ЭКРАН ===== */
 
 .hero {
     min-height: 620px;
@@ -128,7 +125,6 @@ body {
     transform: translateY(-5px) scale(1.04);
 }
 
-/* ===== ПРЕИМУЩЕСТВА ===== */
 
 .advantages {
     padding: 75px 0;
@@ -166,7 +162,6 @@ body {
     margin-top: 10px;
 }
 
-/* ===== КАТАЛОГ ===== */
 
 .catalog-section {
     padding: 100px 0;
@@ -199,7 +194,6 @@ body {
     font-size: 17px;
 }
 
-/* ===== ТОВАРЫ ===== */
 
 .product-card {
     height: 100%;
@@ -267,7 +261,6 @@ body {
     transform: scale(1.04);
 }
 
-/* ===== О МАГАЗИНЕ ===== */
 
 .about-section {
     padding: 110px 20px;
@@ -301,7 +294,6 @@ body {
     margin-bottom: 35px;
 }
 
-/* ===== КОНТАКТЫ ===== */
 
 .contacts-section {
     padding: 100px 0;
@@ -359,7 +351,6 @@ body {
     color: #159b68;
 }
 
-/* ===== ПОДВАЛ ===== */
 
 footer {
     background: linear-gradient(90deg, #21104e, #54208c, #9a287b);
@@ -380,7 +371,6 @@ footer p {
     margin-top: 15px;
 }
 
-/* ===== АНИМАЦИЯ ===== */
 
 @keyframes appear {
     from {
@@ -397,7 +387,6 @@ footer p {
     animation: appear 1s ease;
 }
 
-/* ===== АДАПТАЦИЯ ===== */
 
 @media (max-width: 768px) {
     .hero {
